@@ -48,6 +48,24 @@ p.word_space {
 }
 
 
+p.text3{
+	border: 1px solid #999999;
+	height: 20px;
+	width: 100px;
+	white-space: nowrap; /*줄바꿈 금지*/
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+
+p.text3:hover + div{
+	display: block;
+}
+
+p.text3 + div{
+	display: none;
+}
+
+
 </style>
 </head>
 
