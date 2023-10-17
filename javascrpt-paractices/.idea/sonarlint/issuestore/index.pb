@@ -1,0 +1,21 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+>
+basics/es01.js,d\f\df3fedcb23b1f3f6c9e34f5fda5018334e6d5277
+>
+basics/es02.js,6\8\68a01b85b9db146741ae8d5790f49d288e57e536
+Å
+Q.idea/sonarlint/securityhotspotstore/6/8/68a01b85b9db146741ae8d5790f49d288e57e536,1\4\149466d083d296fca8672197c00d1105a8fb5e36
+Å
+Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
+w
+G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+Å
+Q.idea/sonarlint/securityhotspotstore/d/f/df3fedcb23b1f3f6c9e34f5fda5018334e6d5277,6\2\622df3c9be541708ae0645e8dd582612001701ac
+w
+G.idea/sonarlint/issuestore/d/f/df3fedcb23b1f3f6c9e34f5fda5018334e6d5277,9\e\9e37d66e55363ed4bac67800be4dbda4d6bbe7f9
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

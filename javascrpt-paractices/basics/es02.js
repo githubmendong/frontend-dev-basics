@@ -52,6 +52,7 @@ console.log(d + ": " + typeof (d) + ":" + (d instanceof (Date)));
 
 
 console.log("=== 객체 타입 (function)====");
+console.log("=== 객체 타입 (function)====");
 
 // 유사객체
 console.log("=== 윈사 타입도 메소드를 호출 할 수 있다. (유사 객체)====");
