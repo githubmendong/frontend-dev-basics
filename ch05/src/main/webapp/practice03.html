@@ -1,52 +1,123 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<title>4장 간단한 회원 가입폼</title>
-<style type="text/css">
-* {
-	margin: 0;
-	padding: 0;
-}
+    <meta charset="utf-8">
+    <title>4장 간단한 회원 가입폼</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-body {
-	font-family: "맑은 고딕";
-	font-size: 0.75em;
-	color: #333;
-}
-</style>
+        body {
+            font-family: "맑은 고딕";
+            font-size: 0.75em;
+            color: #333;
+        }
+
+        .join-form  {
+            width: 190px;
+            margin: 10px auto;
+            border: 1px solid #333333;
+            padding: 0 10px 10px 10px;
+            border-radius: 10px;
+            background-color: #efefef;
+        }
+
+
+        .join-form label.legend,
+        .join-form input[type='text'],
+        .join-form input[type='password'],
+        .join-form input[type='image']
+        {
+            display: block;
+        }
+
+        .join-form input[type='text']:focus,
+        .join-form input[type='password']:focus{
+            border-color: #2a00e6;
+        }
+
+        .join-form fieldset{
+            border: none;
+        }
+
+        .join-form legend{
+            margin-bottom: 5px;
+        }
+        .join-form label.legend, fieldset {
+            margin: 10px 0 5px 0;
+
+        }
+
+        .join-form input[type='image']{
+            width: 50px;
+            margin: 10px auto 5px auto;
+        }
+
+
+        .centered-image {
+            margin-top: 200px;
+            text-align: center;
+        }
+
+        .centered-image img {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-	<form id="join-form" method="get">
+<!--<img src="images/ll.jpg" sizes="50">-->
+<div class="centered-image">
+    <img src="images/ll.jpg" width="200" height="200">
+</div>
+<form class="join-form" method="post" action="/user/join">
 
-		<label class="legend">아이디</label> <input name="userid" type="text">
-		<br> <label class="legend">패스워드</label> <input name="passwprd"
-			type="password">
+<form class="join-form" method="post" action="/user/join">
 
-		<fieldset>
-			<legend>생년월일</legend>
-			<select>
-				<option value="1970">1970</option>
-			</select> <label></label> <select>
-				<option value="01">01</option>
-			</select> <label>월</label> <select>
-				<option value="01">01</option>
-			</select> <label>일</label>
-		</fieldset>
 
-		<fieldset>
-			<legend>성별</legend>
-			<label>남</label> <input type="radio" name="gender" value="m"
-				checked="checked"> <label>여</label> <input type="radio"
-				name="gender" value="f">
-		</fieldset>
+    <label class="legend">아이디</label>
+    <input name="userid" type="text">
 
-		<fieldset>
-			<input type="checkbox" name="agree-prov" value="y" checked="checked"><label>약관에
-				동의합니다.</label>
-		</fieldset>
+    <label class="legend">패스워드</label>
+    <input name="passwprd" type="password">
 
-		<input type="submit" value="가입">
-	</form>
+    <fieldset>
+        <legend>생년월일</legend>
+
+        <select>
+            <option value="1970">1970</option>
+        </select>
+        <label>년</label>
+
+        <select>
+            <option value="01">01</option>
+        </select>
+        <label>월</label>
+
+        <select>
+            <option value="01">01</option>
+        </select>
+        <label>일</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>성별</legend>
+
+        <label>남</label>
+        <input checked="checked" name="gender" type="radio" value="m">
+
+        <label>여</label>
+        <input name="gender" type="radio" value="f">
+    </fieldset>
+
+    <fieldset>
+        <input checked="checked" name="agree-prov" type="checkbox" value="y">
+        <label>약관에 동의합니다.</label>
+    </fieldset>
+
+    <input type="image" src="images/login.png">
+</form>
 </body>
 </html>
