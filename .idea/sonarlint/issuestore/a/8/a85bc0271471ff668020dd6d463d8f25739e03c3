@@ -1,3 +1,7 @@
 
 Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
-NWeb:FieldsetWithoutLegendCheck,"$Add a <legend> tag to this fieldset.(¨Ïçñ
+UWeb:AvoidCommentedOutCodeCheckH"Remove this commented out code.(Òæ‰¡øÿÿÿÿ8œªûà³1
+SWeb:ImgWithoutAltCheckJ"%Add an "alt" attribute to this image.(üµ¼üÿÿÿÿ8œªûà³1
+NWeb:FieldsetWithoutLegendCheckt"$Add a <legend> tag to this fieldset.(¨Ïçñ
+SWeb:ImgWithoutAltChecky"%Add an "alt" attribute to this image.(€©Øûÿÿÿÿ8ªûà³1
+G	css:S4649"&Unexpected missing generic font family(áäŒÆùÿÿÿÿ8£©üà³1
