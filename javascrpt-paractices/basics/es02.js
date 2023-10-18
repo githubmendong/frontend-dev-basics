@@ -42,6 +42,17 @@ let b2 = Boolean(true);
 let o = {};
 let a = Array();
 let d = Date();
+let d = Date();
+let d = Date();
+
+let o2 ={};
+let a2 = [];
+let re2 = /^js$/gi;
+let n = null;
+let n = null;
+
+//test
+//test
 
 console.log(i2 + ": " + typeof (i2) + ":" + (i2 instanceof (Number)));
 console.log(s2 + ": " + typeof (s2) + ":" + (s2 instanceof (String)));
@@ -51,8 +62,10 @@ console.log(a + ": " + typeof (a) + ":" + (a instanceof (Array)));
 console.log(d + ": " + typeof (d) + ":" + (d instanceof (Date)));
 
 
+
 console.log("=== 객체 타입 (function)====");
 console.log("=== 객체 타입 (function)====");
+
 
 // 유사객체
 console.log("=== 윈사 타입도 메소드를 호출 할 수 있다. (유사 객체)====");
