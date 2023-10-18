@@ -324,3 +324,5 @@ N
 ch04/src/main/webapp/ex05.html,0\7\07d788cbba5f8be33d9ddf9ff593afd3591efb19
 S
 #javascrpt-paractices/basics/es01.js,c\0\c066142114ea819bb3f98a50b9ddbaf245683047
+S
+#javascrpt-paractices/basics/es02.js,b\e\be988350ac7ec1e34149255789af9586b789cbd8
