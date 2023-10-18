@@ -1,17 +1,39 @@
 /**
  * 변수와 자료형
  *
- * 기본타입
+ * [기본 타입]
  * - undefined
  * - number
  * - string
  * - boolean
  *
- * 객체
+ * [객체]
  * - object
+ *  1. new 생성자 함수 () 사용 해서 생성
+ *  2. 리터널
+ *      {}, [], //
+ *  3. null
+ *
  * - function
+ *  1. new Function() 사용해서 생성
+ *  2. 리터널
+ *      var f = function(){ ... }
+ *  3. function f() { ... }
  *
- *
+ */
+
+/**
+ *  자바 스크립트 객체를 분류하는 또 하나의 방법
+ *  
+ *  1. 내장 객체
+ *       javascrpt engine 내부에 미리 내장(정의) 되어 있는 객체
+ *       - 생성자 함수 : Number, Boolean, String, Date, ...
+ *       - 일반 함수 : parseInt, setTimeout, setInterval
+ *  
+ *  2. 호스트 객체
+ *  
+ *  3. 사용자 객체
+ *  
  */
 
 console.log("=== 기본타입(undefined, number, string, boolean) ======")
