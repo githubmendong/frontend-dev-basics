@@ -328,3 +328,7 @@ S
 #javascrpt-paractices/basics/es02.js,b\e\be988350ac7ec1e34149255789af9586b789cbd8
 Å
 Q.idea/sonarlint/securityhotspotstore/b/e/be988350ac7ec1e34149255789af9586b789cbd8,e\0\e0f8fa1cfbef110731d429218bce450754d0c95a
+S
+#javascrpt-paractices/basics/es09.js,b\3\b39a9a5e62fa6f9fdd2d00bc973df92ad6706044
+S
+#javascrpt-paractices/basics/es10.js,c\8\c8f6fe82e5f5be6de4d8efd7783954796c8b8db5
