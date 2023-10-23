@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <script>
+        var registerEventHandler = function (el, eventName, eventHandler) {
+            // IE8 이하 버전에서는 attachEvent 메서드를 사용하여 이벤트 핸들러를 등록하고,
+            // 표준 브라우저에서는 addEventListener 메서드를 사용한다.
+            // IE8 <= 8
+            // attachEvent
+            el &&
+            el.attachEvent &&
+            el.attachEvent(eventName, eventHandler);
+
+
+            //표준 브라우저
+            //addEventListener
+
+            if (el && el.addEventListener && typeof eventName === 'string' && typeof eventHandler === 'function') {
+                el.addEventListener(eventName, eventHandler);
+            }
+
+            // 제약 조건 발생 el이 null  값이라 발생한듯
+            // el &&
+            // el.addEventListener() &&
+            // el.addEventListener(eventName, eventHandler);
+
+            window?.el?.addEventListener(eventName, eventHandler);
+
+        }
+
+        var clickEventHandler = function (){
+            console.log('click');
+        }
+
+        window.addEventListener("load", function () {
+            var el = document.getElementById("header");
+
+            registerEventHandler(el, 'click', function () {
+                console.log('click');
+            });
+
+            el.removeEventListener('click',clickEventHandler);
+        });
+    </script>
 </head>
 <body>
-	<h1>DOM(Document Object Model)</h1>
-	<h2>5. Event 처리</h2>
-	<h3 id='header'>Click!</h3>
+<h1>DOM(Document Object Model)</h1>
+<h2>5. Event 처리</h2>
+<h3 id='header'>Click!</h3>
 </body>
 </html>
