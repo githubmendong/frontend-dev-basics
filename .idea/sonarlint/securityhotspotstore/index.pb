@@ -518,3 +518,21 @@ i
 9ch08/src/main/java/ch08/controller/api/ApiController.java,d\c\dc169776706d104028875767ea9829ba81bd1e63
 ]
 -ch08/src/main/webapp/WEB-INF/views/json04.jsp,1\c\1cb367e306ad20e7c50a4f857b501b15d938eef7
+^
+.ch08/src/main/webapp/WEB-INF/views/gb/ex03.jsp,b\1\b1f311035dc03a9dff576b71a7b4adb6e8357ab6
+t
+Dch08/src/main/java/ch08/controller/test/GuestbookTestController.java,2\6\26f75bd0d29b9bd0bbfa3b74d0dbcb012be5cc44
+o
+?ch08/src/main/java/ch08/controller/api/GuestbookController.java,2\4\24ef3794575ac429ddda7b29e21c1f317dd99ec9
+O
+ch08/src/main/webapp/scroll.jsp,a\9\a95515fa3fc1ea00d2e4fe9990a93849f05726a0
+^
+.ch08/src/main/webapp/WEB-INF/views/gb/ex01.jsp,f\d\fd86d870688b1453d4442bb3e6ac128e03933d04
+`
+0ch08/src/main/webapp/WEB-INF/views/rest-test.jsp,3\5\354fa5bffd81c9d69ebf8e9273afc6859aa67bcc
+m
+=ch08/src/main/java/ch08/controller/api/ApiRestController.java,3\2\32e35718f9b8fdc55de2d0f0039389e6f12dd74a
+r
+Bch08/src/main/java/ch08/controller/test/RestApiTestController.java,b\b\bbe771a6914b35460bc18b96fbc8dd57516ebeeb
+^
+.ch08/src/main/webapp/WEB-INF/views/gb/ex02.jsp,8\3\83cc97dd21fed289974e0ad771dd6135a7ee178e
